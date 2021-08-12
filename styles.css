@@ -112,7 +112,11 @@ h1, h2, h3, h4, p, li, button {
 .cssTopicCont * {
   margin: .15rem auto;
 }
-.codeExampleCont, .codeOutcomeCont {
+.cssTopicCont button {
+  margin-top: 1rem;
+  width: 25%;
+}
+.codeExampleCont {
   width: 100%;
   margin: 0 auto;
   overflow-y: hidden;
@@ -120,20 +124,19 @@ h1, h2, h3, h4, p, li, button {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.codeExampleCont, .codeOutcomeCont, .cssTopicCont button {
   position: relative;
   top: -1.25rem;
 }
-.codeExampleCont div, .codeOutcomeCont div {
+.codeExampleCont div {
   font-family: helvetica, tahoma, serif;
 }
 code {
   padding: 0.25rem 0.5rem;
 }
-.marginB {
-  margin-bottom: 1.25rem;
+.sampleDiv {
+  border: .15rem solid black;
 }
+/* The home page images. ------------- */
 .imageExampleCont {
   width: 70%;
   padding: .25rem;

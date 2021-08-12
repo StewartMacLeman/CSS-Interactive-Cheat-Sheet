@@ -1,6 +1,6 @@
 "use strict";
 
-// Displays / hides the navigation. ------------------------------
+// Displays / hides the navigation. ----------------------------------
  let navigationButton = document.querySelector(".navButton");
  navigationButton.addEventListener("click", displayNavigation)
 
@@ -19,25 +19,23 @@
      button.textContent = show;
    }
  }
- // Displays / hides the code outcomes. -----------------------
- let outcomeButtons = document.querySelectorAll(".outcomeBut");
+ // Updates the "Add the CSS" buttons with the appropriate text.---------
+ let outcomeButtons = document.querySelectorAll(".changeBut");
 
  for (let i = 0; i < outcomeButtons.length; i++){
-   outcomeButtons[i].addEventListener("click", showOutcome);
+   outcomeButtons[i].addEventListener("click", updateText);
  }
 
- function showOutcome(e){
-   let nextElement = e.target.nextElementSibling;
-   nextElement.classList.toggle("hide");
+ function updateText(e){
 
    let button = e.target;
    let buttonText = e.target.textContent;
-   let hide = "Hide Outcome";
-   let show = "Show Outcome";
+   let hide = "Reset";
+   let show = "Add the CSS";
 
-   if ( buttonText == "Show Outcome" ){
+   if ( buttonText == "Add the CSS" ){
      button.textContent = hide;
-   } else if ( buttonText == "Hide Outcome" ){
+   } else if ( buttonText == "Reset" ){
      button.textContent = show;
    }
  }

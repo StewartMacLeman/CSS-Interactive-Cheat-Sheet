@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Stewart MacLeman">
     <meta name="description" content="A CSS Cheat-Sheet.">
+    <link rel="stylesheet" href="./css/00_examples.css">
     <link rel="stylesheet" href="./styles.css">
     <script src="./scripts/00_examples.js" defer></script>
     <script src="./main.js" defer></script>
@@ -58,23 +59,33 @@
       </div>
       <!-- ////////////////////////////////////////////////////////////////// -->
       <div class="cssTopicCont">
-        <h3>Review the code examples!</h3>
+        <h3>Text: font-size</h3>
         <div class="codeExampleCont">
-          <!-- The example code. -->
-          <div id="codeTestID_1"></div>
+          <!-- The css example code. -->
+          <div id="codeExID_1"></div>
         </div>
         <!-- Displays the code outcome. -->
-        <h3 class="marginB">Click the button to reveal the outcome of the code!</h3>
-        <button type="button" class="outcomeBut">Show Outcome</button>
-
-        <div class="hide">
-          <h3 class="marginB">Click the button again to hide the outcome!</h3>
-          <div class="codeOutcomeCont">
-            <!-- The result. -->
-            <div id="ocTest_1"></div>
-          </div>
+        <p>Sample Text!</p>
+        <!-- Button to add the css to the above element. -->
+        <button type="button" class="changeBut" id="exBut_1">Add the CSS</button>
         </div>
-      </div>
+        <!-- ////////////////////////////////////////////////////////////////// -->
+      <div class="cssTopicCont">
+        <h3>Selectors: Combinators - Descendant (space)</h3>
+        <div class="codeExampleCont">
+          <!-- The css example code. -->
+          <div id="codeExID_2"></div>
+        </div>
+        <!-- Displays the code outcome. -->
+        <div class="sampleDiv">
+          <p>Sample Text!</p>
+          <p>Sample Text!</p>
+          <p>Sample Text!</p>
+        </div>
+        <!-- Button to add the css to the above element. -->
+        <button type="button" class="changeBut" id="exBut_2">Add the CSS</button>
+        </div>
+        <!-- ////////////////////////////////////////////////////////////////// -->
 
     </main>
 

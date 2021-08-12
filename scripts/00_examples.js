@@ -1,31 +1,45 @@
 "use strict";
 
-// Home Page Example  ---------------------------------------------------
-let codeDiv_1 = document.getElementById("codeTestID_1");
-let outcomeDiv_1 = document.getElementById("ocTest_1");
-
+// Home Page Example 1 ---------------------------------------------------
+let codeDiv_1 = document.getElementById("codeExID_1");
+let exampleButton_1 = document.getElementById("exBut_1")
 // Adds the example code to the html page. ----------------------------
 let codeExample_1 =
 `<pre><code>
-let c = 50;
-let d = 60;
-
-function add() {
-  return c + d;
-};
-let outcome = add();
+p {
+  font-size: 2.5rem;
+  }
 </code></pre>`;
 
 codeDiv_1.innerHTML = codeExample_1;
-
 // Runs the function and adds the answer to the html page. -------
-  let c_1 = 50;
-  let d_1 = 60;
+exampleButton_1.addEventListener("click", exampleFuncV1);
 
-  function add() {
-    return c_1 + d_1;
-  };
+function exampleFuncV1(e){
+  let changeElement = e.target.previousElementSibling;
+  changeElement.classList.toggle("textChange_1");
+}
+// /////////////////////////////////////////////////////////////////////
 
-let outcome_1 = add();
-outcomeDiv_1.innerHTML = `outcome: <code>${outcome_1}</code>`;
+// Home Page Example 2 ---------------------------------------------------
+let codeDiv_2 = document.getElementById("codeExID_2");
+let exampleButton_2 = document.getElementById("exBut_2")
+// Adds the example code to the html page. ----------------------------
+let codeExample_2 =
+`<pre><code>
+div p {
+  color: tomato;
+  font-weight: bold;
+  font-style: italic;;
+  }
+</code></pre>`;
+
+codeDiv_2.innerHTML = codeExample_2;
+// Runs the function and adds the answer to the html page. -------
+exampleButton_2.addEventListener("click", exampleFuncV2);
+
+function exampleFuncV2(e){
+  let changeElement = e.target.previousElementSibling;
+  changeElement.classList.toggle("selectorChange_1");
+}
 // /////////////////////////////////////////////////////////////////////

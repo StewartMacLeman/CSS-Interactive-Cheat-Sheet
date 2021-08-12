@@ -1,0 +1,13 @@
+/* CSS Change Classes. --------------------------------------------*/
+
+/* Text: font-size */
+.textChange_1 {
+  font-size: 2.5rem;
+ }
+
+ /* Selectors: Combinators - Descendant (space)*/
+ .selectorChange_1 p {
+   color: tomato;
+   font-weight: bold;
+   font-style: italic;
+  }
