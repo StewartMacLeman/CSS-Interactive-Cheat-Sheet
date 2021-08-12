@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Stewart MacLeman">
+    <meta name="description" content="A CSS Cheat-Sheet.">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts/00_examples.js" defer></script>
+    <script src="./main.js" defer></script>
+
+    <title>CSS Cheat-Sheet</title>
+  </head>
+
+  <body>
+
+    <header class="header">
+      <h1>CSS Cheat-Sheet: Home</h1>
+      <button type="button" class="navButton">Show Nav</button>
+
+      <nav class="navigation hide">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="./pages/01_text.html">Text</a></li>
+          <li><a href="./pages/02_selectors.html">Selectors</a></li>
+          <li><a href="./pages/03_colours.html">Colours</a></li>
+          <li><a href="./pages/04_borders_shadows.html">Borders & Shadows</a></li>
+          <li><a href="./pages/05_gradients.html">Gradients</a></li>
+          <li><a href="./pages/06_background_Img.html">Background Images</a></li>
+          <li><a href="./pages/07_display.html">The Display Property</a></li>
+          <li><a href="./pages/08_position.html">The Position Property</a></li>
+          <li><a href="./pages/09_float.html">Floats</a></li>
+          <li><a href="./pages/10_flexbox.html">Flexbox</a></li>
+          <li><a href="./pages/11_grid.html">Grid</a></li>
+          <li><a href="./pages/12_transforms.html">Transforms</a></li>
+          <li><a href="./pages/13_transitions.html">Transitions</a></li>
+          <li><a href="./pages/14_animations.html">Animations</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+
+      <h2>How to use this site!</h2>
+      <!-- ////////////////////////////////////////////////////////////// -->
+      <div class="cssTopicCont">
+        <h3>Choose a CSS Topic!</h3>
+        <div class="imageExampleCont">
+          <img src="./images/temp_image.png" />
+        </div>
+      </div>
+      <!-- /////////////////////////////////////////////////////////////// -->
+      <div class="cssTopicCont">
+        <h3>Scroll down to view the sub-topics!</h3>
+        <div class="imageExampleCont">
+          <img src="./images/temp_image.png" />
+        </div>
+      </div>
+      <!-- ////////////////////////////////////////////////////////////////// -->
+      <div class="cssTopicCont">
+        <h3>Review the code examples!</h3>
+        <div class="codeExampleCont">
+          <!-- The example code. -->
+          <div id="codeTestID_1"></div>
+        </div>
+        <!-- Displays the code outcome. -->
+        <h3 class="marginB">Click the button to reveal the outcome of the code!</h3>
+        <button type="button" class="outcomeBut">Show Outcome</button>
+
+        <div class="hide">
+          <h3 class="marginB">Click the button again to hide the outcome!</h3>
+          <div class="codeOutcomeCont">
+            <!-- The result. -->
+            <div id="ocTest_1"></div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+
+  </body>
+</html>
