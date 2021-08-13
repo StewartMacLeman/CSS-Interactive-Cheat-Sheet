@@ -1,0 +1,26 @@
+/* CSS Change Classes. -------------------------------------------------------*/
+
+/* The Display Property Example 1: inline*/
+.displayChange_1 div {
+  display: inline;
+ }
+/* The Display Property Example 2: block*/
+.displayChange_2 span {
+  display: block;
+ }
+/* The Display Property Example 3: none*/
+.displayChange_3 div {
+  display: none;
+ }
+/* The Display Property Example 4: none*/
+.displayChange_4 span {
+  display: none;
+ }
+/* The Display Property Example 5: visibility: hidden*/
+.displayChange_5 div {
+  visibility: hidden;
+ }
+/* The Display Property Example 6: visibility: hidden*/
+.displayChange_6 span {
+  visibility: hidden;
+ }

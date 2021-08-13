@@ -158,13 +158,18 @@ code {
 @media screen and (max-width: 650px){
   html { font-size: 12px; }
 
-  .main *, .mkTopicCont *  {
+  .main * {
     border-radius: 8px;
   }
   button { border-radius: 6px; }
 }
 @media screen and (max-width: 550px){
   .main, .navigation { width: 96%; }
+}
+@media screen and (max-width: 470px){
+  .cssTopicCont button {
+    width: 45%;
+  }
 }
 @media screen and (max-width: 450px){
   html { font-size: 10px; }
