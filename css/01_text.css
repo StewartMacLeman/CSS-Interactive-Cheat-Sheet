@@ -16,9 +16,12 @@
 .textChange_4 {
   text-align: left;
 }
+.tChange_4_Helper {
+  width: 80%;
+}
 /* Text Example 5: text-indent */
 .textChange_5 {
-  text-indent: 60px;
+  text-indent: 2rem;
 }
 /* Text Example 6: font-family */
 .textChange_6 {
@@ -69,36 +72,61 @@
 .textChange_17 {
   white-space: nowrap;
 }
-
-/* Code for the resized content element; applicable to examples 18 and above.----- */
-
-/* CSS Change Classes. ------------------------------------------------------*/
-
+.tChange_17_Helper {
+  width: 25%;
+  border: .15rem solid black;
+}
 /* Text Example 18: overflow */
+.tChange_18_Helper {
+  overflow: hidden;
+  height: 70px;
+  border: .15rem solid black;
+}
 .textChange_18 {
   overflow: visible;
 }
 /* Text Example 19: overflow-x */
+.tChange_19_Helper {
+  overflow: hidden;
+  height: 70px;
+  border: .15rem solid black;
+}
 .textChange_19 {
-  overflow: auto;
-  overflow-x: scroll;
+  overflow-y: scroll;
 }
 /* Text Example 20: text-justify */
+.tChange_20_Helper {
+  overflow: hidden;
+  height: 70px;
+  border: .15rem solid black;
+}
 .textChange_20 {
   text-align: justify;
   text-justify: inter-word;
 }
 /* Text Example 21: word-wrap */
+.tChange_21_Helper {
+  overflow: hidden;
+  width: 60%;
+  height: 70px;
+  border: .15rem solid black;
+}
 .textChange_21 {
   word-wrap: break-word;
 }
 /* Text Example 22: writing-mode */
+.tChange_22_Helper {
+  width: 80%;
+  border: .15rem solid black;
+}
 .textChange_22 {
-  height: 200px;
   writing-mode: vertical-rl;
 }
 /* Text Example 23: writing-mode */
+.tChange_23_Helper {
+  width: 80%;
+  border: .15rem solid black;
+}
 .textChange_23 {
-  height: 200px;
   writing-mode: vertical-lr;
 }
