@@ -2,7 +2,7 @@
 
 // Home Page Example 1 ---------------------------------------------------
 let codeDiv_1 = document.getElementById("codeExID_1");
-let exampleButton_1 = document.getElementById("exBut_1")
+let exampleButton_1 = document.getElementById("exBut_1");
 // Adds the example code to the html page. ----------------------------
 let codeExample_1 =
 `<pre><code>
@@ -18,7 +18,7 @@ exampleButton_1.addEventListener("click", exampleFuncV1);
 function exampleFuncV1(e){
   let changeElement = e.target.previousElementSibling;
   changeElement.classList.toggle("textChange_1");
-}
+};
 // /////////////////////////////////////////////////////////////////////
 
 // Home Page Example 2 ---------------------------------------------------
@@ -41,5 +41,5 @@ exampleButton_2.addEventListener("click", exampleFuncV2);
 function exampleFuncV2(e){
   let changeElement = e.target.previousElementSibling;
   changeElement.classList.toggle("selectorChange_1");
-}
+};
 // /////////////////////////////////////////////////////////////////////

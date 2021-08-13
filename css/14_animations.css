@@ -1,4 +1,7 @@
 /* CSS Change Classes. -------------------------------------------------------*/
+.textChange_1 {
+  font-size: 2.5rem;
+ }
 
 /* Animation Example 1: animation-name & animation-duration----*/
 @keyframes colour_change {

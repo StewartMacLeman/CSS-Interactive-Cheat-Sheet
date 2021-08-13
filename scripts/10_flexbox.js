@@ -1,21 +1,21 @@
 "use strict";
 
-// Text: font-size ----------------------------------------------------
-let codeTextDiv_1 = document.getElementById("codeTextID_1");
-let textButton_1 = document.getElementById("textBut_1");
+// Flexbox: font-size ----------------------------------------------------
+let codeFlexboxDiv_1 = document.getElementById("codeFlexboxID_1");
+let flexboxButton_1 = document.getElementById("flexboxBut_1");
 // Adds the example code to the html page. ----------------------------
-let codeTextExample_1 =
+let codeFlexboxExample_1 =
 `<pre><code>
 p {
   font-size: 2.5rem;
   }
 </code></pre>`;
 
-codeTextDiv_1.innerHTML = codeTextExample_1;
+codeFlexboxDiv_1.innerHTML = codeFlexboxExample_1;
 // Runs the function and adds the answer to the html page. -------
-textButton_1.addEventListener("click", textFuncV1);
+flexboxButton_1.addEventListener("click", flexboxFuncV1);
 
-function textFuncV1(e){
+function flexboxFuncV1(e){
   let changeElement = e.target.previousElementSibling;
   changeElement.classList.toggle("textChange_1");
 };

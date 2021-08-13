@@ -1,4 +1,7 @@
 /* CSS Change Classes. -------------------------------------------------------*/
+.textChange_1 {
+  font-size: 2.5rem;
+ }
 
 /* Transform Example 1: translate(x,y)----*/
 .transformChange_1 div {

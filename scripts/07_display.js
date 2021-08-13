@@ -1,21 +1,21 @@
 "use strict";
 
-// Text: font-size ----------------------------------------------------
-let codeTextDiv_1 = document.getElementById("codeTextID_1");
-let textButton_1 = document.getElementById("textBut_1");
+// Display: font-size ----------------------------------------------------
+let codeDisplayDiv_1 = document.getElementById("codeDisplayID_1");
+let displayButton_1 = document.getElementById("displayBut_1");
 // Adds the example code to the html page. ----------------------------
-let codeTextExample_1 =
+let codeDisplayExample_1 =
 `<pre><code>
 p {
   font-size: 2.5rem;
   }
 </code></pre>`;
 
-codeTextDiv_1.innerHTML = codeTextExample_1;
+codeDisplayDiv_1.innerHTML = codeDisplayExample_1;
 // Runs the function and adds the answer to the html page. -------
-textButton_1.addEventListener("click", textFuncV1);
+displayButton_1.addEventListener("click", displayFuncV1);
 
-function textFuncV1(e){
+function displayFuncV1(e){
   let changeElement = e.target.previousElementSibling;
   changeElement.classList.toggle("textChange_1");
 };
