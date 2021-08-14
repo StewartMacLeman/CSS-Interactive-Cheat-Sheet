@@ -23,12 +23,13 @@ h2 { font-size: 2rem; }
 h3 { font-size: 1.5rem; }
 h4 { font-size: 1.5rem; }
 p { font-size: 1.5rem; }
+span { font-size: 1.5rem; }
 code { font-size: 1.25rem; }
 div { font-size: 1.25rem; }
 li { font-size: 1.5rem; }
 button { font-size: 1.25rem; }
 
-h1, h2, h3, h4, p, li, button {
+h1, h2, h3, h4, p, span, li, button {
   font-family: helvetica, tahoma, serif;
   text-align: center;
   margin: 0 auto;
@@ -111,10 +112,12 @@ h1, h2, h3, h4, p, li, button {
 }
 .cssTopicCont * {
   margin: .15rem auto;
+  border-radius: 0;
 }
 .cssTopicCont button {
   margin-top: 1rem;
   width: 25%;
+  border-radius: 10px;
 }
 .codeExampleCont {
   width: 100%;
@@ -161,7 +164,12 @@ code {
   .main * {
     border-radius: 8px;
   }
+  .cssTopicCont * {
+    margin: .15rem auto;
+    border-radius: 0;
+  }
   button { border-radius: 6px; }
+
 }
 @media screen and (max-width: 550px){
   .main, .navigation { width: 96%; }
