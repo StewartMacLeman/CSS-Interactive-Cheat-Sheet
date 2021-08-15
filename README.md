@@ -1,4 +1,4 @@
-# CSS interactive Cheat-Sheet
+# CSS Interactive Cheat-Sheet
 
 This is an interactive CSS cheat-sheet, to be used as a quick refresher.
 
