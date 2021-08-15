@@ -1,6 +1,17 @@
 /* CSS Change Classes. -------------------------------------------------------*/
-.textChange_1 {
-  font-size: 2.5rem;
+.flexboxGenHelper {
+  border: 0.15rem solid black;
+  width: 20rem;
+  height: 12.5rem;
+  overflow: hidden;
+ }
+.flexboxGenHelper div {
+  margin: 0;
+  text-align: center;
+  border: 0.15rem solid black;
+  background-color: var(--palegreen);
+  width: 5rem;
+  height: 3rem;
  }
 
 /* Flexbox Example 1: display: flex;----*/
@@ -107,28 +118,14 @@
   display: flex;
   align-items: flex-end;
  }
- /* Helper class adjusted for examples 21 and 28; the height has been removed. */
- .flexboxChangeHelper_2 {
-   margin: 10px auto;
-   border: 2px solid darkgreen;
-   width: 60%;
-   height: 300px;
-   overflow: hidden;
- }
- .flexboxChangeHelper_2 div {
-   width: 150px;
-   /* height: 80px; */
-   background-color: palegreen;
-   border: 2px solid darkgreen;
-   border-radius: 5px;
-   font-size: 1.5em;
-   text-align: center;
- }
 /* Flexbox Example 21: align-items----*/
 .flexboxChange_21 {
   display: flex;
   align-items: stretch;
- }
+}
+.flexboxChange_21 div {
+  height: auto;
+}
 /* Flexbox Example 22: align-items----*/
 .flexboxChange_22 {
   display: flex;
@@ -169,6 +166,9 @@
   display: flex;
   flex-wrap: wrap;
   align-content: stretch;
+ }
+ .flexboxChange_28 div {
+   height: auto;
  }
 /* Flexbox Example 29: align-content & justify-content----*/
 .flexboxChange_29 {
