@@ -142,6 +142,15 @@ code {
 .sampleDiv {
   border: .15rem solid black;
 }
+.highlight {
+  margin-bottom: 2rem;
+}
+.highlight::before {
+  content: "** ";
+}
+.highlight::after {
+  content: " **";
+}
 /* The home page images. ------------- */
 .imageExampleCont {
   width: 70%;
