@@ -1,19 +1,31 @@
 /* CSS Change Classes. -------------------------------------------------------*/
-.textChange_1 {
-  font-size: 2.5rem;
+.transformsGenHelper {
+  border: 0.15rem solid black;
+  width: 20rem;
+  height: 12.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+.transformsGenHelper div {
+  text-align: center;
+  border: 0.15rem solid black;
+  background-color: var(--palegreen);
+  width: 6rem;
+  height: 4rem;
  }
 
 /* Transform Example 1: translate(x,y)----*/
 .transformChange_1 div {
-  transform: translate(100px, 40px);
+  transform: translate(6rem, 4rem);
  }
 /* Transform Example 2: translate(x,y)----*/
 .transformChange_2 div {
-  transform: translate(-100px, -40px);
+  transform: translate(-6rem, -4rem);
  }
 /* Transform Example 3: translate(x,y)----*/
 .transformChange_3 div {
-  transform: translate(100px, 0px);
+  transform: translate(6rem, 0rem);
  }
 /* Transform Example 4: rotate(deg)----*/
 .transformChange_4 div {
