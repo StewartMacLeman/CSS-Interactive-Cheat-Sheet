@@ -7,7 +7,6 @@ html {
 }
 :root {
   --palegreen: rgba(152, 251, 152, 0.4);
-  --greyBorder : rgba(128, 128, 128, 0.4);
 }
 
 body {
@@ -30,14 +29,14 @@ li { font-size: 1.5rem; }
 button { font-size: 1.25rem; }
 
 h1, h2, h3, h4, p, span, li, button {
-  font-family: helvetica, tahoma, serif;
+  font-family: helvetica, tahoma, sans-serif;
   text-align: center;
   margin: 0 auto;
   padding: .25rem;
   background-color: none;
 }
 div {
-  font-family: helvetica, tahoma, serif;
+  font-family: helvetica, tahoma, sans-serif;
 }
 /* Button styles. ---------------------------------------- */
  button {
@@ -134,7 +133,7 @@ div {
   top: -1.25rem;
 }
 .codeExampleCont div {
-  font-family: helvetica, tahoma, serif;
+  font-family: helvetica, tahoma, sans-serif;
 }
 code {
   padding: 0.25rem 0.5rem;
