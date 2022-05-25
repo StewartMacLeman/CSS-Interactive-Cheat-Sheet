@@ -645,6 +645,7 @@ div {
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
+}
 </code></pre>`;
 
 codeFlexboxDiv_29.innerHTML = codeFlexboxExample_29;
@@ -668,6 +669,7 @@ div {
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
+}
 </code></pre>`;
 
 codeFlexboxDiv_30.innerHTML = codeFlexboxExample_30;
@@ -691,6 +693,7 @@ div {
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
+}
 </code></pre>`;
 
 codeFlexboxDiv_31.innerHTML = codeFlexboxExample_31;
@@ -714,6 +717,7 @@ div {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
 </code></pre>`;
 
 codeFlexboxDiv_32.innerHTML = codeFlexboxExample_32;
@@ -737,6 +741,7 @@ div {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
 </code></pre>`;
 
 codeFlexboxDiv_33.innerHTML = codeFlexboxExample_33;
@@ -760,6 +765,7 @@ div {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
 </code></pre>`;
 
 codeFlexboxDiv_34.innerHTML = codeFlexboxExample_34;

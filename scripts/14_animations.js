@@ -13,6 +13,7 @@ let codeAnimationsExample_1 =
 .div div {
   animation-name: colour_change;
   animation-duration: 5s;
+}
 </code></pre>`;
 
 codeAnimationsDiv_1.innerHTML = codeAnimationsExample_1;
